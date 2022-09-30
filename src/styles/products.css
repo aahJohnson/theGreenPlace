@@ -1,0 +1,40 @@
+.products {
+  min-height: 30vh;
+  margin: 5vh 0 5vh 0;
+}
+
+.productsHead {
+  display: grid;
+  grid-template-columns: 25vw 20vw 25vw;
+  margin-left: 15vw;
+  grid-template-rows: 2rem;
+}
+
+.productsTitle {
+  font-size: 2.5rem;
+  font-family: "Josefin Slab", serif;
+}
+
+.titleLine {
+  border-bottom: 1px solid black;
+  margin-bottom: 0.75rem;
+}
+
+.productLinks {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  column-gap: 0.3%;
+  margin: 3rem 15vw 2rem 15vw;
+  grid-template-rows: 20rem;
+}
+
+.productImage {
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.productImage:hover {
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+}

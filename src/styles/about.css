@@ -1,0 +1,26 @@
+.about {
+  height: auto;
+}
+
+.aboutTitle {
+  font-family: "Josefin Slab", serif;
+}
+
+.aboutText {
+  display: grid;
+  grid-template-columns: 29vw 2vw 29vw;
+  margin-left: 20vw;
+}
+
+.aboutTextLeft {
+  text-align: right;
+}
+
+.aboutTextRight {
+  text-align: left;
+}
+
+.aboutCenter {
+  border-left: 1px solid black;
+  margin-left: 1vw;
+}

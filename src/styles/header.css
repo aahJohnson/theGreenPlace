@@ -1,0 +1,74 @@
+.header {
+  height: 100vh;
+  background-image: url(../media/bgImg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 90%);
+}
+
+.headerTitle {
+  padding-top: 3rem;
+  font-size: 3rem;
+  font-family: "Josefin Slab", serif;
+  color: black;
+}
+
+.headList {
+  list-style: none;
+}
+
+.headListItem {
+  position: static;
+  display: inline-block;
+  margin: 0 3rem 0 3rem;
+  font-size: 1.2;
+  max-width: 100%;
+}
+
+.headListTitle {
+  background-color: transparent;
+  color: white;
+}
+
+.headListDropdown {
+  position: absolute;
+  background-color: #e6c6a3;
+  color: black;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding: 0 25% 0 25%;
+  /* top: 0; */
+  left: 0;
+  max-height: 0;
+  width: 50%;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  z-index: 1;
+  /* text-transform: uppercase; */
+}
+
+.headListItem:hover .headListDropdown {
+  max-height: 50vh;
+  transition: max-height 0.5s ease-in;
+}
+
+.headListItem:hover .headListTitle {
+  color: #e6c6a3;
+}
+
+.dropdownList {
+  list-style: none;
+  text-align: left;
+  position: relative;
+  margin: 2rem 0 2rem 0;
+}
+
+.listMain {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.dropdownList li {
+  margin: 1rem 0 1rem 0;
+}
