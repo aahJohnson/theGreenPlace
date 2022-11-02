@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 .App {
   text-align: center;
   margin-top: -2rem;
+  font-family: "Raleway", sans-serif;
 }
 
 .appMain {
@@ -15,7 +16,7 @@
 
 .appHeader {
   grid-column: 1 / 6;
-  grid-row: 1;
+  grid-row: 1 / 2;
 }
 
 .appAbout {

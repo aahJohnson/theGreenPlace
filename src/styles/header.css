@@ -10,7 +10,7 @@
 .headerTitle {
   padding-top: 3rem;
   font-size: 3rem;
-  font-family: "Josefin Slab", serif;
+  /*font-family: "Josefin Slab", serif;*/
   color: black;
 }
 
@@ -44,7 +44,7 @@
   width: 50%;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  z-index: 1;
+  z-index: 10;
   /* text-transform: uppercase; */
 }
 
