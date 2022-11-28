@@ -6,45 +6,24 @@
   font-family: "Raleway", sans-serif;
 }
 
-.appMain {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  grid-template-rows: auto;
-  column-gap: 5%;
-  row-gap: 5rem;
+html {
+  overflow: overlay;
 }
 
-.appHeader {
-  grid-column: 1 / 6;
-  grid-row: 1 / 2;
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 1rem;
 }
 
-.appAbout {
-  grid-column: 1 / 6;
-  grid-row: 2;
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-.appProductsOne {
-  grid-column: 1 / 6;
-  grid-row: 3;
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.6);
 }
 
-.appProductsTwo {
-  grid-column: 1 / 6;
-  grid-row: 5;
-}
-
-.appEvents {
-  grid-column: 1 / 6;
-  grid-row: 4;
-}
-
-.appSocials {
-  grid-column: 1 / 6;
-  grid-row: 6;
-}
-
-.appFooter {
-  grid-column: 1 / 6;
-  grid-row: 7;
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.8);
 }

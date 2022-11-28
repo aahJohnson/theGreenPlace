@@ -1,3 +1,34 @@
-.footerTitle {
-  font-family: "Josefin Slab", serif;
+footer {
+  margin: 5rem 0 0 0;
+}
+
+.footerColumns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 0 5% 0 15%;
+  width: 80%;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.footerList {
+  list-style: none;
+  text-align: left;
+}
+
+.footListTitle {
+  margin-bottom: 2rem;
+}
+
+.footerList p {
+  font-size: 0.8rem;
+}
+
+/* Copyright */
+
+.copyright {
+  text-align: start;
+  margin: 2rem 0 2rem 5%;
+  font-size: 0.8rem;
 }

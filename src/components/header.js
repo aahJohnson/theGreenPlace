@@ -1,11 +1,17 @@
 import React, { Component } from "react";
 import "../styles/header.css";
+import logo from "../media/logo5.jpg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div>
       <div className="header">
-        <h1 class="headerTitle">The Green Place</h1>
+        <div class="headerLink">
+          <Link to="/">
+            <img src={logo} alt="Logo" class="headerLogo" />
+          </Link>
+        </div>
         <ul class="headList">
           <li class="headListItem">
             <p class="headListTitle">Handla</p>
@@ -13,7 +19,9 @@ const Header = () => {
               <ul class="dropdownList">
                 <li class="listMain">Dam</li>
                 <li>Nyheter</li>
-                <li>Jackor</li>
+                <Link to="../productListPage" params={{ title: "coats" }}>
+                  Jackor
+                </Link>
                 <li>Överdelar</li>
                 <li>Byxor</li>
                 <li>Klänningar</li>

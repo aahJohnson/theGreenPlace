@@ -1,17 +1,25 @@
 .header {
-  height: 100vh;
+  height: 75vh;
   background-image: url(../media/bgImg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 90%);
 }
 
-.headerTitle {
-  padding-top: 3rem;
-  font-size: 3rem;
-  /*font-family: "Josefin Slab", serif;*/
-  color: black;
+.headerLink {
+  position: absolute;
+  height: 10rem;
+  left: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
+  overflow: hidden;
+  mix-blend-mode: multiply;
+}
+
+.headerLogo {
+  height: 250%;
+  margin-top: -6rem;
 }
 
 .headList {
@@ -21,7 +29,7 @@
 .headListItem {
   position: static;
   display: inline-block;
-  margin: 0 3rem 0 3rem;
+  margin: 10rem 3rem 0 3rem;
   font-size: 1.2;
   max-width: 100%;
 }
