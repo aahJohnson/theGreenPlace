@@ -26,7 +26,7 @@ const Footer = () => {
           <p>Facebook</p>
         </ul>
       </div>
-      <p class="copyright">© The Green Place 2022</p>
+      <p class="copyright">The Green Place 2022</p>
     </footer>
   );
 };
