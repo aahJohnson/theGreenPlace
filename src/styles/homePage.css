@@ -8,7 +8,7 @@ main {
 }
 
 .products {
-  margin: 2rem 0 0 0;
+  margin: 5rem 0 0 0;
 }
 
 .productLinks {
@@ -75,32 +75,34 @@ main {
 /* About */
 
 .about {
-  margin: 2rem 0 0 0;
-}
-
-.aboutTitle {
-  /*font-family: "Josefin Slab", serif;*/
-  margin: 0;
+  margin: 10vh 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5vw;
 }
 
 .aboutText {
-  display: grid;
-  grid-template-columns: 49% 2% 49%;
-  gap: 1rem;
-  margin: 2rem 0 0 0;
+  text-align: start;
+  margin-top: 25%;
+  transform: translate(0, -50%);
 }
 
-.aboutTextLeft {
-  text-align: right;
+.aboutText a {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  color: black;
+  animation-duration: 1s;
 }
 
-.aboutTextRight {
-  text-align: left;
+.aboutText a:hover {
+  border-bottom: 1px solid white;
 }
 
-.aboutCenter {
-  border-left: 1px solid black;
-  margin-left: 50%;
+.aboutImg {
+  height: 20vw;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 /* Events */
@@ -108,7 +110,7 @@ main {
 .events {
   height: 50rem;
   width: 100vw;
-  margin: 2rem 0 0 -10vw;
+  margin: 5rem 0 0 -10vw;
   background-image: url(../media/bgImg2.jpg);
   background-repeat: no-repeat;
   background-size: cover;

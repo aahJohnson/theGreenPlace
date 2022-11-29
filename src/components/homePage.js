@@ -45,21 +45,29 @@ const HomePage = () => {
         </div>
       </div>
       <div class="about">
-        <h1 class="aboutTitle">About Us</h1>
         <div class="aboutText">
-          <p class="aboutTextLeft">
+          <h3>Our goal</h3>
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
             mollitia, molestiae quas vel sint commodi repudiandae consequuntur
             voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum! Provident
-            similique accusantium nemo autem. Veritatis obcaecati tenetur iure
-            eius earum ut molestias architecto voluptate aliquam nihil, eveniet
-            aliquid culpa officia aut! Impedit sit sunt quaerat, odit, tenetur
-            error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-            quia.
+            fugiat iusto fuga praesentium optio, eaque rerum.
           </p>
-          <div class="aboutCenter"></div>
-          <p class="aboutTextRight">
+          <a href=" ">Learn more</a>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1607004468138-e7e23ea26947?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YWJvdXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+          alt="About"
+          class="aboutImg"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1599940824399-b87987ceb72a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dHJlZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+          alt="About"
+          class="aboutImg"
+        />
+        <div class="aboutText">
+          <h3>Enviroment</h3>
+          <p>
             Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
             sapiente officiis modi at sunt excepturi expedita sint? Sed
             quibusdam recusandae alias error harum maxime adipisci amet laborum.
@@ -69,6 +77,7 @@ const HomePage = () => {
             magni deleniti quod quam consequuntur! Commodi minima excepturi
             repudiandae velit hic maxime doloremque.
           </p>
+          <a href=" ">Learn more</a>
         </div>
       </div>
       <div class="events">
