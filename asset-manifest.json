@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/theGreenPlace/static/css/main.8ce4c9ba.css",
-    "main.js": "/theGreenPlace/static/js/main.43fd032d.js",
-    "static/js/787.7cd5a447.chunk.js": "/theGreenPlace/static/js/787.7cd5a447.chunk.js",
-    "static/media/bgImg.jpg": "/theGreenPlace/static/media/bgImg.19c255d95ae6ffe36e99.jpg",
-    "static/media/bgImg2.jpg": "/theGreenPlace/static/media/bgImg2.8820ef0eef8cd327e447.jpg",
-    "static/media/logo5.jpg": "/theGreenPlace/static/media/logo5.f35b4460b5c3f0d070e8.jpg",
-    "index.html": "/theGreenPlace/index.html",
-    "main.8ce4c9ba.css.map": "/theGreenPlace/static/css/main.8ce4c9ba.css.map",
-    "main.43fd032d.js.map": "/theGreenPlace/static/js/main.43fd032d.js.map",
-    "787.7cd5a447.chunk.js.map": "/theGreenPlace/static/js/787.7cd5a447.chunk.js.map"
+    "main.css": "/aahJohnson.github.io/theGreenPlace/static/css/main.04a99f1c.css",
+    "main.js": "/aahJohnson.github.io/theGreenPlace/static/js/main.c59607f7.js",
+    "static/js/787.7cd5a447.chunk.js": "/aahJohnson.github.io/theGreenPlace/static/js/787.7cd5a447.chunk.js",
+    "static/media/bgImg.jpg": "/aahJohnson.github.io/theGreenPlace/static/media/bgImg.19c255d95ae6ffe36e99.jpg",
+    "static/media/bgImg2.jpg": "/aahJohnson.github.io/theGreenPlace/static/media/bgImg2.8820ef0eef8cd327e447.jpg",
+    "static/media/logo5.jpg": "/aahJohnson.github.io/theGreenPlace/static/media/logo5.f35b4460b5c3f0d070e8.jpg",
+    "index.html": "/aahJohnson.github.io/theGreenPlace/index.html",
+    "main.04a99f1c.css.map": "/aahJohnson.github.io/theGreenPlace/static/css/main.04a99f1c.css.map",
+    "main.c59607f7.js.map": "/aahJohnson.github.io/theGreenPlace/static/js/main.c59607f7.js.map",
+    "787.7cd5a447.chunk.js.map": "/aahJohnson.github.io/theGreenPlace/static/js/787.7cd5a447.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ce4c9ba.css",
-    "static/js/main.43fd032d.js"
+    "static/css/main.04a99f1c.css",
+    "static/js/main.c59607f7.js"
   ]
 }
