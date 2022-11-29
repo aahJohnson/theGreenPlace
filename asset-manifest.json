@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/aahJohnson/theGreenPlace/static/css/main.8ce4c9ba.css",
+    "main.js": "/aahJohnson/theGreenPlace/static/js/main.43fd032d.js",
+    "static/js/787.7cd5a447.chunk.js": "/aahJohnson/theGreenPlace/static/js/787.7cd5a447.chunk.js",
+    "static/media/bgImg.jpg": "/aahJohnson/theGreenPlace/static/media/bgImg.19c255d95ae6ffe36e99.jpg",
+    "static/media/bgImg2.jpg": "/aahJohnson/theGreenPlace/static/media/bgImg2.8820ef0eef8cd327e447.jpg",
+    "static/media/logo5.jpg": "/aahJohnson/theGreenPlace/static/media/logo5.f35b4460b5c3f0d070e8.jpg",
+    "index.html": "/aahJohnson/theGreenPlace/index.html",
+    "main.8ce4c9ba.css.map": "/aahJohnson/theGreenPlace/static/css/main.8ce4c9ba.css.map",
+    "main.43fd032d.js.map": "/aahJohnson/theGreenPlace/static/js/main.43fd032d.js.map",
+    "787.7cd5a447.chunk.js.map": "/aahJohnson/theGreenPlace/static/js/787.7cd5a447.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ce4c9ba.css",
+    "static/js/main.43fd032d.js"
+  ]
+}
