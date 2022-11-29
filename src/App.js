@@ -26,7 +26,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route path="/productListPage" element={<ProductListPage />} />
-          <Route path="/theGreenPlace" element={<ProductListPage />} />
+          <Route path="/theGreenPlace" element={<HomePage />} />
         </Routes>
 
         <div class="appFooter">
