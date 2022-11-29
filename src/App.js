@@ -6,6 +6,7 @@ import {
   Routes,
   Link,
   BrowserRouter,
+  HashRouter,
 } from "react-router-dom";
 
 // Components
@@ -17,7 +18,7 @@ import ProductListPage from "./components/productListPage";
 function App() {
   return (
     <div class="App">
-      <BrowserRouter>
+      <HashRouter>
         <div class="appHeader">
           <Header />
         </div>
@@ -30,7 +31,7 @@ function App() {
         <div class="appFooter">
           <Footer />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
