@@ -2,49 +2,67 @@ body {
   overflow: auto;
 }
 
-main {
-  margin: 0 10% 0 10%;
-  width: 80%;
-}
-
 .products {
-  margin: 5rem 0 0 0;
+  margin: 5vh 0 5vh 0;
+  height: 80vh;
+  width: 100vw;
 }
 
-.productLinks {
+.productsHead {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.productsHead h2 {
+  font-size: 5rem;
+  margin-top: 10rem;
+  color: white;
+}
+
+.productsHead button {
+  color: white;
+  background-color: transparent;
+  height: 4rem;
+  width: 10rem;
+  margin-top: 5rem;
+  border: 1px solid white;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.productsHead button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.productGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 2%;
+  column-gap: 2.5%;
+  height: 100%;
+  width: 80%;
+  margin: 0 10% 0 10%;
 }
 
-.productDiv {
-  position: relative;
-  transition: 1s ease;
-  height: 35rem;
+.productGridTiles {
+  height: 80%;
 }
 
-.productDiv:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.productDiv:hover .productInformation {
-  visibility: visible;
-}
-
-.productLinks h3 {
+.productTitle {
   position: absolute;
-  font-size: 1.5rem;
-  color: red;
-  top: 0%;
-  left: 6%;
+  margin: 2% 0 0 2%;
+  color: white;
+  text-shadow: 5px 5px 1rem rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 .productImage {
   height: 100%;
   width: 100%;
-  object-fit: contain;
-  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.05);
+  object-fit: cover;
   border-radius: 3px;
 }
 
@@ -75,7 +93,8 @@ main {
 /* About */
 
 .about {
-  margin: 10vh 0 0 0;
+  margin: 10vh 10% -10vh 10%;
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5vw;
@@ -108,9 +127,9 @@ main {
 /* Events */
 
 .events {
-  height: 50rem;
-  width: 100vw;
-  margin: 5rem 0 0 -10vw;
+  height: 75vh;
+  width: 100%;
+  margin: 0 0 10vh 0;
   background-image: url(../media/bgImg2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,37 +138,60 @@ main {
   color: white;
 }
 
-.eventsTitle {
-  position: relative;
-  padding-top: 7rem;
-  font-size: 3rem;
-  font-family: "Josefin Slab", serif;
-}
-
-.eventList {
+.eventGrid {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  margin: 1rem 15vw 0 15vw;
-  grid-template-rows: 10rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10%;
+  height: 80%;
+  width: 80vw;
+  margin: 10% 10vw 10% 10vw;
 }
 
 .eventTile {
   text-align: center;
+  margin: 50% 0 0 0;
+  transform: translateY(-25%);
+  height: 65%;
+  z-index: 15;
 }
 
 .eventImage {
-  width: 15rem;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
   z-index: 1;
 }
 
-.eventName {
+.eventImageOverlay {
+  position: absolute;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 25%;
+  width: 100%;
+  top: 75%;
+  z-index: 10;
 }
 
-/* Socials */
+.eventName {
+  margin: 10% 0 0 0;
+  font-size: 1.75rem;
+}
 
-.socialsTitle {
-  font-family: "Josefin Slab", serif;
+.socialMediaLink {
+  display: inline-block;
+  padding: 1.2rem;
+  border-radius: 50%;
+  margin: 7.5% 5% 0 5%;
+  cursor: pointer;
+  height: 2rem;
+  width: 2rem;
+}
+
+.socialMediaLink:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.socialMediaIcon {
+  height: 100%;
+  width: 100%;
 }
