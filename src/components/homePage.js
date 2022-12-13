@@ -7,6 +7,7 @@ import youtubeIcon from "../media/youtubeIcon.png";
 const HomePage = () => {
   return (
     <main>
+      {/* Products */}
       <div class="products">
         <div class="productsHead">
           <h2>Nyheter</h2>
@@ -30,16 +31,24 @@ const HomePage = () => {
           />
         </div>
       </div>
+      {/* About */}
       <div class="about">
         <div class="aboutText">
-          <h3>Our goal</h3>
+          <h3>Vårat mål</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum.
+            Som företag inom miljövänliga produkter skulle vårt mål vara att bli
+            den ledande leverantören av hållbara och miljövänliga produkter på
+            vår marknad, samtidigt som vi minskar vårt koldioxidutsläpp och
+            främjar hållbarhet inom samhället. Detta skulle innebära att
+            implementera hållbara affärsmetoder, att använda material från
+            miljöansvariga leverantörer och att utveckla innovativa produkter
+            som är effektiva och hållbara. Dessutom skulle vi sträva efter att
+            informera konsumenterna om vikten av att välja miljövänliga
+            produkter och vilken påverkan dessa val kan ha på planeten.
           </p>
-          <a href=" ">Learn more</a>
+          <a href=" " class="aboutLink">
+            Läs mer
+          </a>
         </div>
         <img
           src="https://images.unsplash.com/photo-1607004468138-e7e23ea26947?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YWJvdXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
@@ -52,20 +61,21 @@ const HomePage = () => {
           class="aboutImg"
         />
         <div class="aboutText">
-          <h3>Enviroment</h3>
+          <h3>Miljö och klimat</h3>
           <p>
-            Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
-            sapiente officiis modi at sunt excepturi expedita sint? Sed
-            quibusdam recusandae alias error harum maxime adipisci amet laborum.
-            Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates
-            a cumque velit quibusdam sed amet tempora. Sit laborum ab, eius
-            fugit doloribus tenetur fugiat, temporibus enim commodi iusto libero
-            magni deleniti quod quam consequuntur! Commodi minima excepturi
-            repudiandae velit hic maxime doloremque.
+            Som företag är det viktigt att ta ansvar för vår miljöpåverkan och
+            sträva efter att minska vår konsumtion. Detta kan innebära att
+            erbjuda produkter av hög kvalitet som håller längre, att erbjuda
+            återvinningsmöjligheter för förpackningar och att informera kunder
+            om hur deras val påverkar miljön. Genom att agera ansvarsfullt och
+            medvetet kan vi bidra till en hållbar framtid.
           </p>
-          <a href=" ">Learn more</a>
+          <a href=" " class="aboutLink">
+            Läs mer
+          </a>
         </div>
       </div>
+      {/* Events */}
       <div class="events">
         <div class="eventGrid">
           {/* Event tile */}
@@ -76,7 +86,7 @@ const HomePage = () => {
               src="https://images.unsplash.com/photo-1514679725149-ecaa6013d817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             />
             <div class="eventImageOverlay">
-              <h3 class="eventName">The Green Place magazine</h3>
+              <h3 class="eventName">The Green Place magasinet</h3>
             </div>
           </div>
           {/* Event tile */}
@@ -87,7 +97,7 @@ const HomePage = () => {
               src="https://images.unsplash.com/photo-1574079771556-f09a65db11e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=677&q=80"
             />
             <div class="eventImageOverlay">
-              <h3 class="eventName">Up to 30% off</h3>
+              <h3 class="eventName">Upp till 30% rea</h3>
             </div>
           </div>
           {/* Event tile */}
@@ -119,6 +129,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      {/* Products */}
       <div class="products">
         <div class="productGrid">
           <a href=" " class="productGridTiles">

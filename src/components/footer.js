@@ -6,19 +6,19 @@ const Footer = () => {
     <footer>
       <div class="footerColumns">
         <ul class="footerList">
-          <p class="footListTitle">Legal</p>
-          <p>Privacy Policy</p>
-          <p>Terms of sale</p>
+          <p class="footListTitle">Regler</p>
+          <p>Integritetspolicy</p>
+          <p>Försäljningsvillkor</p>
         </ul>
         <ul class="footerList">
-          <p class="footListTitle">Assistance</p>
-          <p>Shipping</p>
-          <p>Returns</p>
+          <p class="footListTitle">Assistans</p>
+          <p>Frakt</p>
+          <p>Retur</p>
         </ul>
         <ul class="footerList">
-          <p class="footListTitle">Company</p>
-          <p>Contact us</p>
-          <p>Retailers</p>
+          <p class="footListTitle">Företag</p>
+          <p>Kontakta oss</p>
+          <p>Partners</p>
         </ul>
         <ul class="footerList">
           <p class="footListTitle">Social Media</p>

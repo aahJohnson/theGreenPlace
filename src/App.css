@@ -4,9 +4,11 @@
   text-align: center;
   margin-top: -2rem;
   font-family: "Raleway", sans-serif;
+  max-width: 100vw;
 }
 
 html {
+  width: 100vw;
   overflow: overlay;
 }
 
@@ -26,4 +28,22 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  html {
+    font-size: 40%;
+  }
 }

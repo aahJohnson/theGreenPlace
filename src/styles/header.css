@@ -1,5 +1,7 @@
 .header {
   height: 75vh;
+  max-height: 75vw;
+  width: 100vw;
   background-image: url(../media/bgImg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,21 +46,20 @@
   background-color: #e6c6a3;
   color: black;
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  padding: 0 25% 0 25%;
-  /* top: 0; */
-  left: 0;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2.5vw;
   max-height: 0;
-  width: 50%;
+  width: 50vw;
+  left: 0;
+  padding: 0 22vw 0 28vw;
   overflow: hidden;
-  transition: max-height 0.3s ease-out;
+  transition: max-height 0.6s ease-out;
   z-index: 10;
-  /* text-transform: uppercase; */
 }
 
 .headListItem:hover .headListDropdown {
   max-height: 50vh;
-  transition: max-height 0.5s ease-in;
+  transition: max-height 0.3s ease-in;
 }
 
 .headListItem:hover .headListTitle {
@@ -70,6 +71,8 @@
   text-align: left;
   position: relative;
   margin: 2rem 0 2rem 0;
+  padding: 0;
+  border: 1px solid black;
 }
 
 .listMain {
@@ -79,4 +82,15 @@
 
 .dropdownList li {
   margin: 1rem 0 1rem 0;
+}
+
+/* Mobile menu */
+
+/* Dynamic Resolutions */
+
+@media only screen and (max-width: 1200px) {
+  .headListDropdown {
+    padding: 0 5vw 0 5vw;
+    width: 100vw;
+  }
 }
