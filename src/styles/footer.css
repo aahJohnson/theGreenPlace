@@ -16,6 +16,7 @@ footer {
 .footerList {
   list-style: none;
   text-align: left;
+  padding: 0;
 }
 
 .footListTitle {
@@ -30,11 +31,20 @@ footer {
 
 .copyright {
   text-align: start;
-  margin: 2rem 0 2rem 5vw;
+  margin: 2rem 0 2rem 10vw;
   font-size: 0.8rem;
 }
 
 /* Dynamic Resolutions */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) {
+  .footerColumns {
+    padding: 0 5vw 0 5vw;
+    width: 90vw;
+    gap: 2vw;
+  }
+
+  .copyright {
+    margin-left: 5vw;
+  }
 }
